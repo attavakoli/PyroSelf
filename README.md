@@ -19,17 +19,38 @@ api_id & api_hash
 سورس رو داخل سرور آپلود کنید و پکیج های زیر رو برای اجرا شدن سورس نصب کنید!
 
 sudo apt update
+
+
+
 sudo apt install python3-pip
+
+
+
 pip3 install -U https://github.com/pyrogram/pyrogram/archive/develop.zip
+
+
 pip3 install pyTelegramBotAPI
+
+
 pip3 install redis
 
+
 بعد از نصب این پکیج ها دستور
+
+
 tmux
+
+
 رو داخل ترمینال وارد کنید!
 
+
+
 تو مرحله بعد سورس رو با دستور
+
+
 python3 Self.py
+
+
 اجرا کنید!
 
 بعد از شما شماره میخواد و بعدش از شما سوالی میپرسه که 
