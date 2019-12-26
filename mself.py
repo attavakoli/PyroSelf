@@ -29,6 +29,7 @@ def cmd(c,message):
         if database.sismember('self:monshi',message.from_user.id):
             my = app.get_me()
             if my.status == "offline":
-                message.send_message(message.chat.id,"{}".format(database.smembers('self:mtext')))
+                if message:
+                    app.send_message(message.chat.id,"{}".format(database.smembers('self:mtext')))
                 
 app.run()
