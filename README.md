@@ -52,6 +52,11 @@ pip3 install pyTelegramBotAPI
 pip3 install redis
 
 
+
+pip3 install khayyam
+
+
+
 بعد از نصب این پکیج ها دستور
 
 
