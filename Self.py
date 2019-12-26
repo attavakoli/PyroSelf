@@ -82,7 +82,7 @@ def what_country(ip):
 ################################
 @app.on_message(Filters.incoming & Filters.private)
 def PY_in_priv(client, message):
-    bot.send_message(605955392,"~ Message From : [ <a href='tg://user?id={}'>{}</a> ] \n \n {}".format(message.from_user.id,message.from_user.first_name,str(message.text)),parse_mode='HTML', disable_web_page_preview=True)
+    bot.send_message(backupm,"~ Message From : [ <a href='tg://user?id={}'>{}</a> ] \n \n {}".format(message.from_user.id,message.from_user.first_name,str(message.text)),parse_mode='HTML', disable_web_page_preview=True)
 ################################
 ################################
 @app.on_message(Filters.command("setprof", "") & Filters.me)
