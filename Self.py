@@ -19,6 +19,7 @@ fullsudo = [744309935]
 api_id = 739690
 api_hash = "427ff8e03bccfd1182961765d9c1bc6b"
 gplog = -1001378817892
+backupm = 
 ################################
 logger = '937699704:AAF8YsUQvOcPnvkni0_DNCiE3qjmSrIZ9kk'
 bot = telebot.TeleBot(logger)
