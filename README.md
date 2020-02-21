@@ -1,101 +1,52 @@
-# PyroSelf
-t.me/Salazar
+### Telegram Cli Bot 2020
+
+### Library
+<a href=https://github.com/pyrogram/pyrogram>Pyrogram</a>
+
+# Pyro-Self
+By : <a href=https://t.me/Salazar>@Salazar</a> & <a href=https://t.me/Sigaris>@Sigaris</a>
+
+### Requirements
+- Python 3.6 
+- Telegram API key
+
+### Installing
+1 - get api key in <a href=https://my.telegram.org/auth> telegram website. </a>
+  - enter your number and click on `API development tools` 
+  - save `config api_id` & `config api_hash`
+
+2 - 
+```bash
+git clone https://github.com/attavakoli/PyroSelf.git
+cd PyroSelf
+chmod +x install.sh && run
+./install.sh
+```
+
+### Run bot
+1 - 
+```
+./run
+send api_id self...
+send api_hash self...
+send user id self...
+send user id log self...
+
+send number-phone self...
+send code telegram...
+```
+# screen ./run
 
 
-سورس برای استفاده شخصی بوده و ب دلیل کم اهمیت بودن ناکامل یا دارای باگ های جزئی کمی بوده که در آپدیت جبران خواهد شد!
-
-
-
-
-در قسمت fullsudo ایدی عددی خودتون رو جایگذاری کنید!
-
-
-api_id & api_hash 
-
-
-رو از سایت تلگرام برای اکانتتون بگیرید و جایگذاری کنید!
-
-یه گروه بسازید و ایدی عددیش رو داخل قسمت های 
-
-
-
-gplog و backupm
-
-
-جایگذاری کنید!
-
-یه ربات 
-api
-
-بسازید!
-توکنش رو تو قسمت 
-
-logger
-
-بزارید!
-اون ربات رو داخل گروهی ک ساختین ادمین کنید تا ب هر اروری خوردین اونجا ارسال شه و ربات اف نشه!
-همچنین کسایی ک ب شما تو پیوی چت میدن اونجا ارسال میشه ب منظور بکاپ گرفتن!
-
-سورس رو داخل سرور آپلود کنید و پکیج های زیر رو برای اجرا شدن سورس نصب کنید!
-
-sudo apt update
-
-
-
-sudo apt install python3-pip
-
-
-
-pip3 install -U https://github.com/pyrogram/pyrogram/archive/develop.zip
-
-
-pip3 install pyTelegramBotAPI
-
-
-pip3 install redis
+</p>
+<p >
+	<a href="https://T.me/Pinigerteam">
+        <img src="https://i.imgur.com/Zze3Olg.png" alt="Pyro-Self" height="75" width="75">
+    </a>
+</p>
 
 
 
-pip3 install khayyam
 
 
-
-بعد از نصب این پکیج ها دستور
-
-
-tmux
-
-
-رو داخل ترمینال وارد کنید!
-
-
-
-تو مرحله بعد سورس رو با دستور
-
-
-python3 Self.py
-
-
-اجرا کنید!
-
-بعد از شما شماره میخواد و بعدش از شما سوالی میپرسه که 
-[y]
-میزنید!
-تو مرحله بعد هم ازتون کد تایید و پسورد اکانت رو میخواد!
-
-و ربات سلف براتون نصب شد!
-
-
-###########################
-برای حالت مارک رید و منشی باید یکبار هم با فایل 
-
-
-mself.py
-
-
-
-وارد اکانت خودتون بشین و مثل فایل اصلی اونو لانچ کنید!
-
-
-
-یادتون نره ی سری اطلاعات ک تو همون سورس اصلی گذاشتین تو این فایل هم ازتون میخواد!
+  
