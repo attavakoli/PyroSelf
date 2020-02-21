@@ -8,4 +8,5 @@ sudo python3.6 -m pip install -U pyrogram
 sudo python3.6 -m pip install -U pyrogram[tgcrypto]
 sudo python3.6 -m pip install --upgrade tgcrypto
 sudo python3.6 -m pip install Khayyam
+sudo python3.6 -m pip install termcolor
 sudo python3.6 -m pip install redis
